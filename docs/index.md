@@ -53,6 +53,7 @@ ROCm compatibility information
 * {doc}`User/kernel space<rocm-install-on-linux:reference/user-kernel-space-compat-matrix>`
 * {doc}`Docker<rocm-install-on-linux:reference/docker-image-support-matrix>`
 * [OpenMP](./about/compatibility/openmp.md)
+* [Precission Support](./about/compatibility/precission-support.md)
 
 :::
 

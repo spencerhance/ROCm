@@ -29,6 +29,8 @@ subtrees:
     title: Linux
   - url: https://rocm.docs.amd.com/projects/install-on-windows/en/${branch}/reference/system-requirements.html
     title: Windows
+  - file: about/compatibility/precission-support.md
+    title: Precission Support in Libraries
 
 - caption: Reference
   entries:
