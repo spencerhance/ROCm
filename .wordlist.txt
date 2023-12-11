@@ -1,5 +1,7 @@
 ABI
 activations
+ACE
+ACEs
 addr
 AddressSanitizer
 AlexNet
@@ -18,6 +20,7 @@ AOMP
 api
 APIC
 APIs
+APU
 Arb
 ASan
 ASIC
@@ -228,6 +231,7 @@ Intersphinx
 intra
 invariants
 invocating
+IOD
 Ioffe
 IOMMU
 IOP
@@ -568,6 +572,8 @@ writebacks
 wrreq
 WX
 wzo
+XCD
+XCDs
 Xeon
 XGMI
 Xnack
