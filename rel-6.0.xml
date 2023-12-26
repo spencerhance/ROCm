@@ -7,10 +7,16 @@
     <remote name="gpuopen-libs" fetch="https://github.com/GPUOpen-ProfessionalCompute-Libraries/" />
     <remote name="gpuopen-tools" fetch="https://github.com/GPUOpen-Tools/" />
     <remote name="KhronosGroup" fetch="https://github.com/KhronosGroup/" />
+    <remote name="gerritgit" review="gerrit-git.amd.com" fetch="ssh://gerritgit/" />
     <default revision="refs/tags/rocm-6.0.0"
      remote="rocm-org"
      sync-c="true"
      sync-j="4" />
+
+<!-- Infrastructure Repos -->
+    <project path="build" name="compute/ec/prototype" revision="yanywang/develop-v0.2-github-6.0" groups="infra,stage1" remote="gerritgit" />
+    <project path="build-infra" name="compute/ec/build-infra" revision="yanywang/develop-v0.2-github-6.0" groups="infra,stage1" remote="gerritgit" />
+
 <!--list of projects for ROCm-->
     <!-- <project name="ROCK-Kernel-Driver" /> -->
     <project name="ROCT-Thunk-Interface" path="libhsakmt"/>
