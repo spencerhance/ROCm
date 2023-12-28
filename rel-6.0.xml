@@ -17,10 +17,16 @@
     <project path="build" name="compute/ec/prototype" revision="yanywang/develop-v0.2-github-6.0" groups="infra,stage1" remote="gerritgit" />
     <project path="build-infra" name="compute/ec/build-infra" revision="yanywang/develop-v0.2-github-6.0" groups="infra,stage1" remote="gerritgit" />
 
+<!-- Missing components -->
+    <project name="hsa/ec/aqlprofile" path="hsa/aqlprofile" revision="59c134406ffd642602bc9e1166f667b70c6b1f15" groups="stage1" upstream="release/rocm-rel-6.0" remote="gerritgit" />
+    <project name="compute/ec/OpenCL-Headers" path="external/OpenCL-Headers" revision="95050aa411a90c9eb2deb6b479cb673892201473" groups="stage1" upstream="release/rocm-rel-6.0" remote="gerritgit" />
+
 <!--list of projects for ROCm-->
     <!-- <project name="ROCK-Kernel-Driver" /> -->
     <project name="ROCT-Thunk-Interface" path="libhsakmt"/>
     <!-- <project name="ROCR-Runtime" /> -->
+    <!-- the structure of this repo is different to internal repo. remove src/ level to make it work as internal -->
+    <project name="ROCR-Runtime" path="hsa/runtime/opensrc/hsa-runtime"/>
     <project name="amdsmi" path="external/amd_smi_lib"/>
     <project name="rocm_smi_lib" path="external/rocm_smi_lib"/>
     <project name="rocm-core" path="external/core"/>
@@ -68,7 +74,7 @@
     <project groups="mathlibs" name="hipCUB" path="extlibs/hipCUB"/>
     <project groups="mathlibs" name="rocPRIM" path="extlibs/rocPRIM"/>
     <project groups="mathlibs" name="rocWMMA" path="extlibs/rocWMMA"/>
-    <project groups="mathlibs" name="rccl" />
+    <project groups="mathlibs" name="rccl" path="extlibs/rccl"/>
     <project name="MIOpen" path="extlibs/MLOpen"/>
     <project name="composable_kernel" path="extlibs/composable_kernel"/>
     <project name="MIVisionX" path="extlibs/MIVisionX"/>
