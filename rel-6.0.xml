@@ -60,6 +60,7 @@
     <project groups="mathlibs" name="Tensile" path="extlibs/Tensile"/>
     <project groups="mathlibs" name="hipTensor" path="extlibs/hipTensor"/>
     <project groups="mathlibs" name="hipBLAS" path="extlibs/hipBLAS"/>
+    <project groups="mathlibs" name="hipBLASLt" path="extlibs/hipBLASLt"/>
     <project groups="mathlibs" name="rocFFT" path="extlibs/rocFFT"/>
     <project groups="mathlibs" name="hipFFT" path="extlibs/hipFFT"/>
     <project groups="mathlibs" name="rocRAND" path="extlibs/rocRAND"/>
