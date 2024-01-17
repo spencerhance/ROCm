@@ -22,14 +22,14 @@ you to the Read the Docs build for your pull request.
 If you don't see this line, click `Show all checks` to get an itemized view.
 
 ## Command line
-
+P
 You can build our documentation via the command line using Python. We use Python 3.8; other
 versions may not support the build.
 
 Use the Python Virtual Environment (`venv`) and run the following commands from the project root:
 
 ```sh
-python3 -mvenv .venv
+  python3 -mvenv .venv
 
 # Windows
 .venv/Scripts/python -m pip install -r docs/sphinx/requirements.txt
@@ -41,7 +41,7 @@ python3 -mvenv .venv
 ```
 
 Navigate to `_build/html/index.html` and open this file in a web browser.
-
+P
 ## Visual Studio Code
 
 With the help of a few extensions, you can create a productive environment to author and test
