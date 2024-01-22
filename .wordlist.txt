@@ -265,6 +265,7 @@ TCI
 TCIU
 TCP
 TCR
+TF
 TFLOPS
 TensorBoard
 TensorFlow
