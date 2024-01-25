@@ -94,7 +94,6 @@ Topic overviews & background information
 
 * [GPU architecture](./conceptual/gpu-arch.md)
   * [MI100](./conceptual/gpu-arch/mi100.md)
-  * [MI200](./conceptual/gpu-arch/mi200-performance-counters.md)
   * [MI250](./conceptual/gpu-arch/mi250.md)
   * [MI300](./conceptual/gpu-arch/mi300.md)
 * [GPU memory](./conceptual/gpu-memory.md)
